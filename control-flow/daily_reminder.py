@@ -1,9 +1,9 @@
 # daily_reminder.py
 
 # Prompt the user for task details
-task = input("Enter your task: ").strip()
-priority = input("Priority (high/medium/low): ").strip().lower()
-time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
+task = input("Enter your task:").strip()
+priority = input("Priority (high/medium/low):").strip().lower()
+time_bound = input("Is it time-bound? (yes/no):").strip().lower()
 
 # Initialize the reminder message using match case
 match priority:
