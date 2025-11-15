@@ -1,7 +1,7 @@
 # Prompt the user for the task details
-task = input("Enter your task for today: ")
-priority = input("Enter the task priority (high/medium/low): ").lower()
-time_bound = input("Is the task time-bound? (yes/no): ").lower()
+task = input("Enter your task for today:")
+priority = input("Enter the task priority (high/medium/low):").lower()
+time_bound = input("Is the task time-bound? (yes/no):").lower()
 
 # Begin generating the reminder
 print("\n--- Daily Reminder ---")
@@ -19,9 +19,9 @@ match priority:
 
 # Add time sensitivity using if
 if time_bound == "yes":
-    reminder += " This task is time-bound and requires immediate attention today!"
+    reminder += "This task is time-bound and requires immediate attention today!"
 else:
-    reminder += " It is not time-sensitive."
+    reminder += "It is not time-sensitive."
 
 # Print the final customized reminder
 print(reminder)
