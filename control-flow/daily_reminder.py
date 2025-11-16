@@ -20,4 +20,4 @@ else:
     reminder = f"Note: '{task}' is a {priority_text} task. Consider completing it when you have free time."
 
 
-print(reminder)
+print({reminder})
