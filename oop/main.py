@@ -15,3 +15,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    
+The sum is: 15
+Calculation type: Arithmetic Operations
+The product is: 50
+
+
